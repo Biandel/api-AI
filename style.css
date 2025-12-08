@@ -269,7 +269,7 @@ body {
 .main-content {
   width: 100%;
   padding: calc(var(--spacing-unit) * 3);
-  padding-top: calc(20px + 45px + 20px); /* Ajuste basado en el nuevo tamaño del toggle */
+  padding: calc(100px + 40px + 40px); /* Ajuste basado en el nuevo tamaño del toggle */
   transition: margin-left var(--transition-speed) ease-in-out; 
 }
 .main-content.history-open {
@@ -603,4 +603,5 @@ div.code-toolbar > .toolbar .toolbar-item > button:hover {
 [data-theme="dark"] .prompt-area:-ms-input-placeholder {
   color: var(--text-color-light) !important;
   font-style: italic;
+
 }
