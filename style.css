@@ -267,9 +267,9 @@ body {
   4. Contenido Principal y Contenedor
   ========================================== */
 .main-content {
-  width: 70%;
-  padding: calc(var(--spacing-unit) * 3);
-  padding: calc(100px + 40px + 40px); /* Ajuste basado en el nuevo tamaño del toggle */
+  width: 100%;
+  padding: var(--spacing-unit);
+  padding-top: calc(15px + 40px + 15px);
   transition: margin-left var(--transition-speed) ease-in-out; 
 }
 .main-content.history-open {
@@ -605,4 +605,5 @@ div.code-toolbar > .toolbar .toolbar-item > button:hover {
   font-style: italic;
 
 }
+
 
