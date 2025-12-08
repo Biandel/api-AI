@@ -267,7 +267,7 @@ body {
   4. Contenido Principal y Contenedor
   ========================================== */
 .main-content {
-  width: 100%;
+  width: 95%;
   padding: var(--spacing-unit);
   padding-top: calc(15px + 40px + 15px);
   transition: margin-left var(--transition-speed) ease-in-out; 
@@ -605,5 +605,6 @@ div.code-toolbar > .toolbar .toolbar-item > button:hover {
   font-style: italic;
 
 }
+
 
 
