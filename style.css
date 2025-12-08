@@ -267,7 +267,7 @@ body {
   4. Contenido Principal y Contenedor
   ========================================== */
 .main-content {
-  width: 100%;
+  width: 70%;
   padding: calc(var(--spacing-unit) * 3);
   padding: calc(100px + 40px + 40px); /* Ajuste basado en el nuevo tamaño del toggle */
   transition: margin-left var(--transition-speed) ease-in-out; 
@@ -605,3 +605,4 @@ div.code-toolbar > .toolbar .toolbar-item > button:hover {
   font-style: italic;
 
 }
+
